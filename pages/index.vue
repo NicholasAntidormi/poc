@@ -3,5 +3,7 @@ import { products } from "~/data/product";
 </script>
 
 <template>
-	<ProductCardsGrid :products="products" />
+	<VContainer>
+		<ProductCardsGrid :products="products" />
+	</VContainer>
 </template>

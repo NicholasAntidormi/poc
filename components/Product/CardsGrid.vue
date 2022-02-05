@@ -9,7 +9,7 @@ defineProps<Props>();
 </script>
 
 <template>
-	<Grid>
+	<VGrid>
 		<ProductCard v-for="product in products" :key="product.id" :product="product" />
-	</Grid>
+	</VGrid>
 </template>

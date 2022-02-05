@@ -9,11 +9,11 @@ defineProps<Props>();
 </script>
 
 <template>
-	<Card>
+	<BaseCard>
 		<template #header>
 			<h3>{{ product.title }}</h3>
 		</template>
 
 		<ProductImage :product="product" />
-	</Card>
+	</BaseCard>
 </template>
