@@ -1,5 +1,7 @@
+<script lang="ts" setup>
+import { products } from "~/data/product";
+</script>
+
 <template>
-	<div>
-		<Test />
-	</div>
+	<ProductCardsGrid :products="products" />
 </template>
