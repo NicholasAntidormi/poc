@@ -1,4 +1,4 @@
-import { Product } from "~/types/Product";
+import { Product } from "~~/types/InterfaceProduct";
 
 export const product: Product = {
 	id: 'id',
